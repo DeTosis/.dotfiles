@@ -1,0 +1,36 @@
+@define-color active @color0;
+
+* {
+    border: none;
+    font-size: 14px;
+    font-family: "JetBrainsMono Nerd Font,JetBrainsMono NF" ;
+    color: @active;
+    /* color: White; */
+}
+
+window#waybar {
+  /* background: transparent; */
+  background: rgba(0, 0, 0, 0.9);
+ }
+
+window#waybar {
+  background: transparent;
+  margin: 5px;
+ }
+
+#custom-logo {
+  padding: 0 10px;
+}
+
+.modules-left {
+  padding: 0px 5px;
+  border-radius: 0 10px 15px 0;
+  margin-top: 2px;
+  background: #000000;
+}
+
+#clock {
+  padding: 5px;
+  color: #5fd1fa;
+}
+

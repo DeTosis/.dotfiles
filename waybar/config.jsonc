@@ -1,0 +1,21 @@
+{
+	"reload_style_change":true,
+	// Bar position
+	"layer" : "top", "position" : "top",
+
+	// Modules position
+	"modules-left": [
+		"custom/arch-logo",
+		"clock"],
+	
+	// Modules
+	"custom/arch-logo": {
+		"format": "",
+    	"tooltip": false
+	},
+	"clock": {
+		"format":"{:%H:%M:%S | %a %d.%m}",
+		"interval": 1,
+		"tooltip": false
+	}
+}
