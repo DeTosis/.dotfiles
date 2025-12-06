@@ -6,7 +6,9 @@
 	// Modules position
 	"modules-left": [
 		"custom/arch-logo",
-		"clock"],
+		"clock",
+		"hyprland/language",
+	],
 	
 	// Modules
 	"custom/arch-logo": {
@@ -14,8 +16,13 @@
     	"tooltip": false
 	},
 	"clock": {
-		"format":"{:%H:%M:%S | %a %d.%m}",
+		"format":"{:%H:%M:%S | %a %d.%m} | ",
 		"interval": 1,
 		"tooltip": false
+	},
+	"hyprland/language":{
+		"format-en":"[en]",
+		"format-ru":"[ru]",
+		"tooltip":"false"
 	}
 }
