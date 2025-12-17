@@ -88,3 +88,9 @@ vim.api.nvim_set_hl(0, "zone_file", {
     fg = "#ffffff", 
     bg = "NONE",
 })
+
+-- These commands run after everything else to force transparency
+vim.api.nvim_set_hl(0, "CmpPmenu", { bg = "NONE", blend = 0 })
+vim.api.nvim_set_hl(0, "CmpNormal", { bg = "NONE", blend = 0 })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "NONE" })
+vim.api.nvim_set_hl(0, "FloatBorder", { bg = "NONE" })

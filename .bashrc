@@ -18,9 +18,6 @@ alias vim='nvim'
 alias vi='nvim'
 # RELOADS
 alias waybar-reload='pkill waybar && hyprctl dispatch exec waybar'
-# OVPN
-alias llovpn='ll /etc/openvpn/config'
-alias ovpn='sudo openvpn --config'
 # SUPPLIMENTARY
 alias volume='pavucontrol'
 # CLEANUPS
