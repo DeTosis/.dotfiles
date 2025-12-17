@@ -6,3 +6,4 @@ ln -s ~/dotfiles/nvim ~/.config/nvim
 ln -s ~/dotfiles/waybar ~/.config/waybar
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/dotfiles/.bashrc ~/.bashrc
+ln -s ~/dotfiles/wofi ~/.config/wofi
