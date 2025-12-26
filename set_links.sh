@@ -1,9 +1,9 @@
 #!/bin/sh
 
-ln -s ~/dotfiles/hypr ~/.config/hypr
-ln -s ~/dotfiles/kitty ~/.config/kitty
-ln -s ~/dotfiles/nvim ~/.config/nvim
-ln -s ~/dotfiles/waybar ~/.config/waybar
-ln -s ~/dotfiles/.bash_profile ~/.bash_profile
-ln -s ~/dotfiles/.bashrc ~/.bashrc
-ln -s ~/dotfiles/wofi ~/.config/wofi
+ln -snf ~/dotfiles/hypr ~/.config/hypr
+ln -snf ~/dotfiles/kitty ~/.config/kitty
+ln -snf ~/dotfiles/nvim ~/.config/nvim
+ln -snf ~/dotfiles/waybar ~/.config/waybar
+ln -snf ~/dotfiles/.bash_profile ~/.bash_profile
+ln -snf ~/dotfiles/.bashrc ~/.bashrc
+ln -snf ~/dotfiles/wofi ~/.config/wofi

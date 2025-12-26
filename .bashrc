@@ -31,3 +31,6 @@ alias cdda="cataclysm"
 alias cddat="cataclysm-tiles"
 export EDITOR=nvim
 export VISUAL=nvim
+# ---
+alias rn="reboot now"
+alias sn="shutdown now"
